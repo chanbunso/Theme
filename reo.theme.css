@@ -1,0 +1,67 @@
+/**
+ * @name Reo
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+
+:root {
+  --background: url('https://moewalls.com/wp-content/uploads/2023/02/reo-mikage-blue-lock-thumb.jpg');
+  --backgroundsize: 150%;
+  --backgroundposition: center right;
+  --backgroundblur: 5px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center right;
+  --popoutblur: 0px;
+  --transparencycolor: 21,6,27;
+  --accentcolor: 190,78,180;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: rgb(44,7,48,1);
+  --transparencyalpha: 0.54;
+  --messagetransparency: 0.08;
+  --guildchanneltransparency: 0.08;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.22;
+  --font: Whitney;
+  --textbrightest: 152,93,255;
+  --textbrighter: 121,62,227;
+  --textbright: 146,65,215;
+  --textdark: 107,37,173;
+  --textdarker: 106,18,135;
+  --textdarkest: 101,31,137;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --HSL-server-icon-size: 47px;
+  --HSL-server-spacing: 10px;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
+}
+
+/* Any custom CSS below here */
+
+
